@@ -1,0 +1,74 @@
+*{margin:0;padding:0}
+li{list-style:none}
+img{vertical-align:top;border:none}
+legend{display:none}
+fieldset{border:none}
+a{text-decoration:none}
+a:hover,a:active{text-decoration:none}
+.clear {clear: both; }
+/*分割线*/
+body{
+	font:15px/1.5 Microsoft YaHei;
+	position:relative;
+	margin:0 auto;
+	color:#000
+}
+#container{
+	width:900px;
+	box-shadow: 0 0 15px #999999;
+	margin: 0 auto;
+	overflow-x: hidden;
+	position: relative;
+	background: rgb(209,234,254);
+} 
+.luxunimg{
+	float: right;
+	position: relative;
+	width: 200;
+	height: 100;
+	margin: 30px 20px 20px;
+}
+.luxun{
+	margin: 10px 20px;
+	font-size: 15px;
+}
+.luxuntitle{
+	margin: 10px 25px;
+	font-size: 22px;
+	color: #0c7fc2; 
+}
+.works{
+	margin: 10px 20px 20px;
+}
+.h3{
+	margin: 10px 5px;
+	font-size: 20px;
+	color: #0c7fc2; 
+}
+.h4{
+	margin: 5px 0;
+	font-size: 17px;
+}
+.liebiao{
+	margin: 0px 10px;
+}
+.table{
+	float: left;
+	position: relative;
+	margin: 5px 130px;
+}
+.goal{
+	margin: 10px 20px 20px;
+}
+.comment{
+	width: 300px;
+	height: 50px;
+}
+.footer{
+	position: absolute;
+	bottom: 0px;
+	height: 0px;
+	font-size: 13px;
+	text-align: center;
+	margin: 0 250px ;
+}
