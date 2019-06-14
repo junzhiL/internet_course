@@ -1,0 +1,4 @@
+logo:width740*heigh53
+login:480*169
+login_btn RGB:24 81 255
+login_btn:480*64

@@ -1,0 +1,112 @@
+*{margin:0;padding:0}
+li{list-style:none}
+img{vertical-align:top;border:none}
+legend{display:none}
+fieldset{border:none}
+a{text-decoration:none}
+a:hover,a:active{text-decoration:none}
+.clear {clear: both; }
+
+/*-----------------------------登录页面-------------------------------------*/
+body{font:24px/1.5 Microsoft YaHei;position:relative;margin:0 auto;color: #FFFFFF}
+#container{
+	width:1920px;
+	box-shadow: 0 0 15px #999999;
+	margin: 0 auto;
+	overflow-x: hidden;
+	position: relative;
+} 
+.login{
+	background:#0c7fc2 url(../img/bj.png) no-repeat center top ;
+	height:1080px;
+
+}
+.login_hd{
+	background:url(../img/logo.png) no-repeat;
+	float:left;
+	margin:230px 590px 0;
+	width:740px;
+	height:53px;
+}
+.login_main{
+	background: url(../img/login.png) no-repeat;
+	float: left;
+	margin: 119px 720px 0;
+	width:480px;
+	height: 169px;
+}
+
+.login_form{
+	width:480px;
+	height:170px;
+	padding:0px 0px 0 0px;
+	color:rgb(209,234,254);
+	position:relative;
+}
+.username{
+	height:64px;
+	margin:2px 20px 0px;
+}
+.password{
+	height:64px;
+	margin:20px 0px 20px;
+}
+.username input,.password input{
+	background: rgb(209,234,254);
+	width:300px;
+	height:60px;
+	border:0;
+	color:#999;
+	outline-style: none;
+	font-size:24px;
+	line-height:32px}控制行距
+.username input{
+	position:absolute; 
+	top:83px; 
+	left:146px; 
+}
+.password input{
+	position:absolute; 
+	top:107px; 
+	left:20px; 
+}
+.login_btn{
+	text-align:center;
+	height:64px;
+	margin:0;
+	position:absolute; 
+	top:220px;
+	left:0px; }
+.login_btn input{background:url(../img/login_btn.png) no-repeat;
+	border:0;
+	width:480px;
+	height:64px;
+	cursor:pointer;
+	text-indent:-9999px;
+	*text-indent:0;
+	*line-height:9999px;
+	overflow:hidden}
+.guest{
+	float:left;
+	margin:0px 0px 0;
+	height:30px;
+	font-size:24px;
+	position:relative; 
+	top:10px; 
+	left:-55px; 
+	width:350px;
+	text-align:center;
+	color:#f00}
+.guest a{color:#0101ff}
+.forget{
+	float: right;
+	margin: 0px 20px 0px;
+	height:30px;
+	font-size:20px;
+	position: relative;
+	top: -15px;
+	right: 0px;
+	width: 100px;
+	text-align: center;
+	}
+.forget a{color:#FFFFFF}
